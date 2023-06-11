@@ -7,7 +7,7 @@ import { auth } from "./firebase";
 function App() {
 
   // 自分がログインしているのかを管理するための変数
-  const user = useAuthState(auth);
+  const [user] = useAuthState(auth);
 
   return (
     <div>

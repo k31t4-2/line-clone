@@ -1,11 +1,11 @@
 import React from 'react'
-import { Button } from "@mui/material";
-import firebase from "firebase/compat/app";
-import { auth } from "../firebase"; 
+import SignOut from './SignOut';
 
 function Line() {
   return (
-    <div>Line</div>
+    <>
+      <div><SignOut/></div>
+    </>
   )
 }
 
